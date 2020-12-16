@@ -1,0 +1,157 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    color: #546A04;
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #546A04;
+            &.active {
+                font-weight: bold;
+                color: #546A04 !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #546A04;
+    color: #ffffff;
+    &:hover {
+        background-color: #82A014;
+        color: #ffffff;
+    }
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../image/Header.jpg');
+    background-size: cover;
+    h1,
+    p {
+        color: #ffffff;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .btn-get-started {
+        background-color: #DCD303;
+        color: #ffffff;
+        & :hover {
+            background-color: #F5ED1E;
+            color: #ffffff;
+        }
+    }
+}
+
+// Statistics
+.section-stats {
+    margin-top: -50px;
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #ffffff;
+        padding-left: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// Popular Wisata
+.section-popular {
+    min-height: 540px;
+    background-color: #546A04;
+    margin-top: -50px;
+    margin-bottom: -230px;
+    .section-popular-heading {
+        margin-top: 150px;
+        h2,
+        p {
+            color: #ffffff;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        p {
+            font-family: 'Assistant', sans-serif;
+            font-weight: normal;
+            font-size: 18px;
+        }
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .travel-country {
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .travel-location {
+            font-size: 26px;
+            color: #ffffff;
+        }
+        .travel-button {
+            .btn-travel-details {
+                background-color: #DCD303;
+                color: #ffffff;
+                &:hover {
+                    background-color: #fffb81;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+.section-network {
+    background-color: #ffffff;
+    margin-top: -68px;
+    padding-top: 273px;
+    padding-bottom: 60px;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+    img {
+        max-width: 50%;
+    }
+}
